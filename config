@@ -1,7 +1,7 @@
 {
-	"id": 1,
+	"id": 4,
 	"server_ip": "10.76.255.30",
 	"admin_port": "3500",
-	"caspar_ip": "10.76.255.41",
+	"caspar_ip": "10.76.255.44",
 	"caspar_port": "5250"
 }
