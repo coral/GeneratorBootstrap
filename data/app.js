@@ -50,7 +50,7 @@ window.on('ready', function(){
     socket.on('connect', function () {
 
       socket.on('restart', function (data) {
-
+        console.log("restart");
         if(data.id == GENERATOR_ID)
         {
           console.log("Restarted server: " + CASPAR_IP);
@@ -63,7 +63,7 @@ window.on('ready', function(){
       });
 
       socket.on('reload', function (data) {
-
+        console.log("reload");
         if(data.id == GENERATOR_ID)
         {
           console.log("Reloaded template: " + data.template + " on server: " + CASPAR_IP);
@@ -74,6 +74,7 @@ window.on('ready', function(){
         }
 
       });
+
     });
 
 
